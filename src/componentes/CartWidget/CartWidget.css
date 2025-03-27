@@ -1,0 +1,12 @@
+.cart-widget img {
+    width: 2.5rem;
+    height: auto;
+
+
+}
+
+.cart-widget {
+    display: flex;
+    align-items: center;
+    gap: .625rem;
+  }

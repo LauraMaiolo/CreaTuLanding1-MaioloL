@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6.25rem;
+}
+
+.navbar img {
+    margin-left: .9375rem;
+    width: 9.375rem;
+    height: auto;
+    cursor: pointer;
+}
+
+li {
+    display: inline-block;
+    margin: .9375rem;
+    cursor: pointer;
+
+
+
+}

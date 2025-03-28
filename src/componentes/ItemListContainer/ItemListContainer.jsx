@@ -1,7 +1,17 @@
 import React from 'react'
 
-export const ItemListContainer = () => {
+const ItemListContainer = ({ items, mensaje }) => {
+
   return (
-    <div>ItemListContainer</div>
-  )
+    <div>
+      <h2>{mensaje}</h2>
+      <ul>
+        {items.map((items, index,) =>
+          <li key={index}>{items}</li>)}
+
+      </ul>
+      </div>
+  );
 }
+
+export default ItemListContainer;
